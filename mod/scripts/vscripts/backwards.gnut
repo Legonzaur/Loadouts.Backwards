@@ -349,7 +349,7 @@ array<string> brute = ["mp_titanweapon_rocketeer_rocketstream","mp_weapon_wingma
                 else if ( sticky.contains ( weapon.GetWeaponClassName() ) && !loadout )
                 {
                     player.TakeWeaponNow( weapon.GetWeaponClassName() )
-                    player.GiveWeapon( "mp_titanweapon_sticky_40mm" , ["sur_level_3"])
+                    player.GiveWeapon( "mp_titanweapon_sticky_40mm" , ["sur_level_0"])
                     loadout = true
                 }
                 else if ( brute.contains ( weapon.GetWeaponClassName() ) && !loadout )
